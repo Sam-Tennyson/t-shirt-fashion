@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --primary-color: #fb0430;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+body {
+  overflow-x: hidden!important;
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.my-card {
+  width: 18rem;
+  min-height: 16rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.my-card:hover {
+  box-shadow: rgba(2, 0, 36, 1) 0px 5px 15px;
+
+}
+
+.my-card-featured {
+  box-shadow: rgba(2, 0, 36, 1) 0px 5px 15px;
+
+}
+
+.shadoww {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner {
+  background-image: url('https://img.freepik.com/free-photo/sale-shelf-apparel-shirt-casual_1203-4208.jpg?w=740&t=st=1695788623~exp=1695789223~hmac=1e31aa614ad88bc15efa26ea7f0f2c6ff6d7b1cbd92135d9b2784d1661f68dc0');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
